@@ -8,11 +8,13 @@ public class Array_UserInput_Number_searching
 	{
 		// TODO Auto-generated method stub
 	  Scanner sc=new Scanner(System.in);
-  	  System.out.println("Enter the size of array");
+  	  System.out.println("Enter the size of array:-");
   	  int size=sc.nextInt();
   	  int number[]=new int[size];
+  	  System.out.println("Enter "+size+" number");
   	  for(int i=0;i<size;i++)  // To take input from user
   	  {
+  		  //System.out.println("Enter "+size+" number");
   		  number[i]=sc.nextInt();
   	  }
    
@@ -24,7 +26,7 @@ public class Array_UserInput_Number_searching
   		  System.out.println(number[i]);
   		  if(number[i]==num)
   		  {
-  			  System.out.println("Number "+num+" found at index \t"+i);
+  			  System.out.println("Number "+num+" found at index "+i);
   		  }
   		  else
   		  {
